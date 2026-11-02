@@ -39,3 +39,6 @@ python3 app/app.py                         # start on http://localhost:8000
 `Checkout → Verify Tools → Build → Unit Test → Package → Deploy → Smoke Test`
 
 See [docs/LAB_GUIDE.md](docs/LAB_GUIDE.md) for the full procedure.
+
+## Deployment
+Every push to main is built, tested and deployed automatically by Jenkins.
