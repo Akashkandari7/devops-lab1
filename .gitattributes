@@ -1,0 +1,4 @@
+# Keep LF endings so shell scripts and the Jenkinsfile run on Ubuntu
+* text=auto eol=lf
+*.png binary
+*.jpg binary
