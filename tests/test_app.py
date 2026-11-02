@@ -26,7 +26,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(app.greet("   ")["message"], "Hello, DevOps!")
 
     def test_add(self):
-        self.assertEqual(app.add(2, 3), 6)
+        self.assertEqual(app.add(2, 3), 5)
 
 
 class HttpTests(unittest.TestCase):
